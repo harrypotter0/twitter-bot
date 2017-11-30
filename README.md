@@ -8,7 +8,7 @@ _Note: you must be comfortable using your computer's command line interface to u
 
 If you don't already have have them, please install [Node.js](http://nodejs.org/). This will install two programs: `node`, which runs JavaScript from the command line, and `npm`, which helps you install software that Node.js can run.
 
-Make an empty project directory somewhere convenient for you, [download this file](https://github.com/dariusk/examplebot/archive/master.zip), and unzip the contents to your project directory. Go to your project directory in the command line. There should be four files there: `.gitignore`, `README.md`, `bot.js` and `config.js`. In that directory type:
+Fork the repository . Go to your project directory in the command line. There should be four files there: `.gitignore`, `README.md`, `bot.js` and `config.js`. In that directory type:
 
 `npm install twit`
 
@@ -45,4 +45,5 @@ Now type the following in the command line in your project directory:
 
 `node bot.js`
 
-Hopefully at this point you see a message like "Success! Check your bot, it should have retweeted something." Check the Twitter account for your bot, and it should have retweeted a tweet with the #mediaarts hashtag.
+Hopefully at this point you see a message like "Success! Check your bot, it should have retweeted something." Check the Twitter account for your bot, and it should have retweeted a tweet with the #machinelearning hashtag.
+[Here](https://medium.com/@harrypotter0/twitter-bot-under-50-lines-using-javascript-29ca588a3102) is a Blog on Medium for the same .
